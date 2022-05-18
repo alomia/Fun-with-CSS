@@ -1,0 +1,78 @@
+/* Variables
+=============================*/
+:root {
+  --bg-white: #ffffff;
+  --bg-light: #f7f7f7;
+  --color-border: #979797;
+}
+
+/* General styles
+=============================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Conatiner styles
+=============================*/
+ul {
+  padding: 2rem 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Card styles
+=============================*/
+li {
+  /*Card*/
+  width: 20rem;
+  height: 30rem;
+  padding: 2rem 0;
+  background-color: var(--bg-light);
+  border-radius: 1rem;
+  border: 0.1rem solid var(--color-border);
+
+  /*Text*/
+  font-weight: bold;
+  font-size: 2.5rem;
+
+  /*Flexbox*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Icon styles
+=============================*/
+.icon {
+  width: 15rem;
+  height: 20rem;
+  margin-top: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*icon html*/
+.i-html {
+  background-position: left;
+  background-image: url(/0-sprite.png);
+}
+
+/*icon css*/
+.i-css {
+  background-position: center;
+  background-image: url(/0-sprite.png);
+}
+
+/*icon js*/
+.i-js {
+  background-position: right;
+  background-image: url(/0-sprite.png);
+}
